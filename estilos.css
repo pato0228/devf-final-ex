@@ -1,0 +1,185 @@
+
+
+
+
+
+.transparent{
+  background: rgb(0,0,0,.5);
+  height: 100%;
+}
+
+.nav{
+  height: 80px;
+  /*background: rgb(0,0,0,.3);*/
+  background-image: url("back_menu.png");
+
+}
+.nav .logo{
+   /*height: 90px;*/
+    width: 132px;
+    margin-left: 150px;
+    margin-top: 12px;
+
+}
+.nav .navegacion{
+  float: right;
+  margin-top: 30px;
+  padding-right: 130px;
+
+}
+.nav .navegacion li {
+  display: inline-block;
+  font-size: 16px;
+  font-family: Signika;
+  font-weight: bold;
+  margin-right: 30px;
+  color: white;
+}
+
+
+.nav .navegacion li:hover{
+  color: #1db954;
+}
+
+.nav .navegacion a{
+  text-decoration: none;
+}
+
+
+.carrusel{
+  height: 580px;
+  background-image: url(back_header.jpg);
+  padding-top: 1px;
+}
+
+
+
+
+
+.carruseltitulo{
+  /*border: 1px solid;*/
+/*  display: inline-block;*/
+  text-align: center;
+  font-size: 70px;
+  font-family: open sans;
+  font-weight: 800;
+  color: white;
+  padding-top: 150px;
+
+}
+
+.botoncar{
+  /*border: 1px solid;*/
+  text-align: center;
+}
+
+.boton1{
+  border: 1px #1db954;
+  display: inline-block;
+  font-size: 14px;
+  font-family: Signika;
+  font-weight: bold;
+  color: white;
+  background-color: #1db954;
+  margin-right: 8px;
+  border-radius: 500px;
+  padding: 16px 48px 18px;
+  letter-spacing: 1px;
+}
+
+.boton2{
+ /* border: 1px #1db954;*/
+  display: inline-block;
+  font-size: 14px;
+  font-family: Signika;
+  font-weight: bold;
+  color: white;
+  background: transparent;
+  margin-right: 8px;
+  border-radius: 500px;
+  padding: 16px 48px 18px;
+  letter-spacing: 1px;
+}
+
+
+.contenedor-body{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 700px;
+}
+
+.contenedor-izquierda{
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+
+
+
+.titulo-spotify{
+  margin-left: 160px;
+  margin-right: 130px;
+  font-size: 48px;
+  font-family: Signika;
+  font-weight: bold;
+  color: black;
+  letter-spacing: 1pt;
+  margin-top: 54px;
+}
+
+
+
+.subtitulo-spotify{
+
+  font-size: 24px;
+  font-family: Signika;
+  font-weight: bold;
+  color: black;
+  margin-left: 160px;
+}
+
+.texto-spotify{
+  margin-left: 160px;
+  margin-right: 70px;
+  font-size: 18px;
+  font-family: Signika;
+}
+
+
+.contenedor-derecha{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: blue;
+  width: 50%;
+  height: 700px;
+}
+
+
+
+
+.ima{
+  width: 50%;
+  height: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
